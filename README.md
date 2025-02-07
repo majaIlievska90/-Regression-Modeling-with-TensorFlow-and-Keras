@@ -16,9 +16,9 @@ I used **Mean Absolute Error (MAE)** as the loss function to evaluate the perfor
 
 Once the models were trained, I used MAE on the test set to evaluate their performance and compare them. The following are the MAE values for each model on the test set:
 
-**Population Model**: 1.35
-**Linear Model**: 1.41
-**DNN Population Model**: 1.46
+**Population Model**: 1.35 <br>
+**Linear Model**: 1.41    <br>
+**DNN Population Model**: 1.46 <br>
 From these results, we can conclude that the Linear Model with one variable produced the lowest MAE, meaning that there is a relatively simple linear relationship between the population size and the number of languages spoken in a country.
 
 While the linear model performs well, there is potential for improvement by addressing issues such as overfitting and exploring additional features. One other metric that could be considered in future work is R-squared (R²), which quantifies the percentage of variance in the data explained by the model.
